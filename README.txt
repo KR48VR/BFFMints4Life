@@ -1,12 +1,15 @@
 BFF Mints4Life luxury pitch website
 
-Open index.html in a browser. The site is self-contained except for local assets in the /assets folder.
+This is a static one-page slide-gallery website.
 
-Design notes:
-- Uses the ten generated luxury pitch images as full-screen editorial sections.
-- Light interaction: smooth scrolling, section reveal, progress bar, side navigation dots, keyboard navigation, and a small ask modal.
-- Tone: fake premium wellness startup, passive-aggressive corporate satire, luxury resort zen, darkly comic crossed-out POISON / MINTS FOR FREND motif.
+Upload the contents of this folder to a GitHub repository root for GitHub Pages hosting.
+The generated slide images are the primary content; the HTML overlay copy has been hidden to avoid duplicated/ghosted text over the slides.
 
-To deploy:
-- Upload this folder to any static host such as Netlify, Vercel, GitHub Pages, or a standard web server.
-- Keep the assets folder beside index.html.
+Recommended GitHub Pages structure:
+repo/
+  index.html
+  assets/
+    01-cover.webp
+    ...
+
+Open index.html locally to preview.
